@@ -5,7 +5,6 @@
 
 before_install:
   - brew update || true
-  - brew install gyp || true
 
 install:
 # /usr/bin/gcc is 4.6 always, but gcc-X.Y is available.
@@ -38,7 +37,7 @@ language: cpp
 compiler:
   - gcc
   - clang
-script: ./make.sh
+script: ./build_all.sh
 notifications:
   email: false
 sudo: false
