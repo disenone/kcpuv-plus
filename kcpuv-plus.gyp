@@ -19,9 +19,11 @@
                     }          
                 },
                 'xcode_settings': {
+                    'GCC_CW_ASM_SYNTAX': 'NO',
+                    'GCC_ENABLE_PASCAL_STRINGS': 'NO',
                     'OTHER_LDFLAGS': [
                     ]
-                }
+                },
             },
             'Release': {
                 'defines': [ 'NDEBUG' ],
@@ -46,11 +48,13 @@
                     }          
                 },
                 'xcode_settings': {
+                    'GCC_CW_ASM_SYNTAX': 'NO',
+                    'GCC_ENABLE_PASCAL_STRINGS': 'NO',
                     'OTHER_LDFLAGS': [
                     ]
-                }
+                },
             }
-        }  
+        },
     },
 
     'targets': [
