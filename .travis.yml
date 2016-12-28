@@ -38,7 +38,7 @@ language: cpp
 compiler:
   - gcc
   - clang
-script: ./build.sh
+script: ./make.sh
 notifications:
   email: false
 sudo: false
