@@ -21,6 +21,6 @@ build:
   verbosity: detailed
 
 build_script:
-- ps: |
+- cmd: |
     .\build_all.bat
 
