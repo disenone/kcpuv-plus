@@ -22,5 +22,5 @@ build:
 
 build_script:
 - ps: |
-    .\make.bat
+    .\build_all.bat
 
