@@ -4,6 +4,7 @@
         'configurations': {
             'Debug': {
                 'defines': [ 'DEBUG', '_DEBUG' ],
+                'msvs_configuration_platform': 'x64',
                 'msvs_settings': {
                     'VCCLCompilerTool': {
                         'RuntimeLibrary': 1, 
@@ -27,6 +28,7 @@
             },
             'Release': {
                 'defines': [ 'NDEBUG' ],
+                'msvs_configuration_platform': 'x64',
                 'msvs_settings': {
                     'VCCLCompilerTool': {
                         'RuntimeLibrary': 0,
