@@ -59,13 +59,13 @@
 
     'targets': [
         {
-            'target_name': 'test_gyp',
+            'target_name': 'test_platform',
                 'type': 'executable',
                 'include_dirs': [
-                    'test',
+                    'src',
                 ],
                 'sources': [
-                    'test/test_gyp.cpp',
+                    'test/test_platform.cpp',
                 ],
         }
     ],
