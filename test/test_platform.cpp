@@ -19,7 +19,7 @@ int main()
 
 #if defined(COMPILER_MSVC)
     cout << "MSVC" << endl;
-#elif defined(__GNUC__)
+#elif defined(COMPILER_GCC)
     cout << "GNUC" << endl;
 #elif defined(COMPILER_CLANG)
     cout << "CLANG" << endl;

@@ -29,13 +29,13 @@
 # ifndef COMPILER_MSVC
 #   define COMPILER_MSVC
 # endif
-#elif defined(__GNUC__)
-# ifndef COMPILER_GCC
-#   define COMPILER_GCC
-# endif
 #elif defined(__clang__)
 # ifndef COMPILER_CLANG
 #   define COMPILER_CLANG
+# endif
+#elif defined(__GNUC__)
+# ifndef COMPILER_GCC
+#   define COMPILER_GCC
 # endif
 #else
 #   error "Unknown compiler!"
