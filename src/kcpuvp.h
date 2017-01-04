@@ -1,6 +1,6 @@
 #pragma once
 
-#include <platform.h>
+#include "platform.h"
 
 #ifdef PLATFORM_WINDOWS
 #   ifdef KCPUVP_DLL

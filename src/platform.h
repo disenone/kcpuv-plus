@@ -57,3 +57,14 @@
 #   error "ERROR: Unknown architecture!"
 #endif
 
+
+#ifdef PLATFORM_WINDOWS
+#   include <winsock2.h>
+#   include <WS2tcpip.h>
+#   include <stdint.h>
+#else
+#   include <fcntl.h>
+#   include <netdb.h>
+#   include <sys/types.h>
+#   include <sys/socket.h>
+#endif
