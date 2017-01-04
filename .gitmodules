@@ -1,3 +1,6 @@
 [submodule "third-party/gyp"]
 	path = third-party/gyp
 	url = https://chromium.googlesource.com/external/gyp
+[submodule "third-party/libuv"]
+	path = third-party/libuv
+	url = https://github.com/libuv/libuv.git
